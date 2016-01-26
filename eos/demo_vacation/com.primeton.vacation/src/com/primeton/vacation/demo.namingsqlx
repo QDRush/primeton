@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- author:Administrator -->
+<sqlMap>
+    <resultMap class="com.primeton.vacation.vacation.QueryEmpVacationTimes" id="resultMap">
+        <result column="applicant" javaType="string" property="applicant"></result>
+        <result column="count" javaType="int" property="count"></result>
+    </resultMap>
+    
+    <select id="getEmpVacationTimes" parameterClass="com.primeton.vacation.vacation.TVacation" resultMap="resultMap">
+    	<!-- applicant为 parameterClass=的属性 -->
+		SELECT DISTINCT
+			t.applicant as applicant,
+			count(*) as count
+		FROM 
+			t_vacation t
+		WHERE
+			t.applicant = #applicant:VARCHAR#
+		GROUP BY t.applicant
+    </select>
+</sqlMap>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap namespace="com.primeton.vacation.demo">
+    <resultMap class="com.primeton.vacation.vacation.QueryEmpVacationTimes" id="resultMap">
+        <result column="applicant" javaType="string" property="applicant"/>
+        <result column="count" javaType="int" property="count"/>
+    </resultMap>
+    <select id="getEmpVacationTimes" parameterClass="com.primeton.vacation.vacation.TVacation" resultMap="resultMap">
+        <!-- applicant为 parameterClass=的属性 -->
+		SELECT DISTINCT
+			t.applicant as applicant,
+			count(*) as count
+		FROM 
+			t_vacation t
+		WHERE
+			t.applicant = #applicant:VARCHAR#
+		GROUP BY t.applicant
+    </select>
+</sqlMap>

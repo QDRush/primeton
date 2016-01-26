@@ -1,0 +1,50 @@
+<map>
+  <entry>
+    <string>com.primeton.vacation.vacation.askForApproval(com.primeton.vacation.vacation.TVacation)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;askForApproval&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;askForApproval&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.vacation.askForApproval&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;vacation(com.primeton.vacation.vacation.TVacation):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.vacation.vacation.updateVactionDemo(com.primeton.vacation.vacation.TVacation)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateVactionDemo&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateVactionDemo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.vacation.updateVactionDemo&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;vacation(com.primeton.vacation.vacation.TVacation):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>vacation</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;vacation.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;vacation&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.vacation&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.vacation.vacation.queryVacation(com.primeton.das.criteria.criteriaType, com.eos.foundation.PageCond, String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;queryVacation&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;queryVacation&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.vacation.queryVacation&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;criteria(com.primeton.das.criteria.criteriaType):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;page(com.eos.foundation.PageCond):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;sortField(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;sortOrder(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;vacations(com.primeton.vacation.vacation.TVacation[]):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;total(Int):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.vacation.vacation.getEmpVacationTree()</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getEmpVacationTree&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getEmpVacationTree&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.vacation.getEmpVacationTree&lt;dl&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;vacationTree(com.primeton.vacation.vacation.VacationTimesTree[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.vacation.vacation.deleteVacations(com.primeton.vacation.vacation.TVacation[])</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;deleteVacations&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;deleteVacation&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.vacation.deleteVacations&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;vacations(com.primeton.vacation.vacation.TVacation[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.vacation.vacation.archiveVacation(com.primeton.vacation.vacation.TVacationArchive)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;archiveVacation&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;archiveVacation&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.vacation.archiveVacation&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;archive(com.primeton.vacation.vacation.TVacationArchive):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.vacation.vacation.getEmpVacationTimes()</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getEmpVacationTimes&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;获取员工请假的次数&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.vacation.getEmpVacationTimes&lt;dl&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;empWithTimes(com.primeton.vacation.vacation.QueryEmpVacationTimes[]):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.vacation.vacation.arppoveVacation(com.primeton.vacation.vacation.TVacation, String, Int)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;arppoveVacation&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;arppoveVacation&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.vacation.arppoveVacation&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;vacation(com.primeton.vacation.vacation.TVacation):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;comments(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;approvalStatus(Int):&lt;/b&gt;审批结果&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.vacation.vacation.getVacationByInstId(String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;getVacationByInstId&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;getVacationByInstId&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.vacation.getVacationByInstId&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;processInst(String):&lt;/b&gt;&lt;/dd&gt;&lt;dt&gt;Return:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;vacation(com.primeton.vacation.vacation.TVacation):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.vacation.vacation.updateVacation(com.primeton.vacation.vacation.TVacation, String, String)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;updateVacation&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;updateVacation&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.vacation.updateVacation&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;vacation(com.primeton.vacation.vacation.TVacation):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;workitemid(String):&lt;/b&gt;&lt;/dd&gt;&lt;dd&gt;&lt;b&gt;processInstId(String):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.vacation.vacation.saveVacation(com.primeton.vacation.vacation.TVacation)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;saveVacation&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;addVacation&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.vacation.saveVacation&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;vacation(com.primeton.vacation.vacation.TVacation):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+</map>

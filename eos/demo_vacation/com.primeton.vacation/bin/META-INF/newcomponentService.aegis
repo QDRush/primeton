@@ -1,0 +1,39 @@
+<mapping>
+	<method name="archiveVacation">
+		<parameter index="0" type="commonj.sdo.DataObject" name="archive" componentType="com.primeton.vacation.vacation#TVacationArchive" />
+	</method>
+	<method name="arppoveVacation">
+		<parameter index="0" type="commonj.sdo.DataObject" name="vacation" componentType="com.primeton.vacation.vacation#TVacation" />
+		<parameter index="1" name="comments" />
+		<parameter index="2" name="approvalStatus" />
+	</method>
+	<method name="askForApproval">
+		<parameter index="0" type="commonj.sdo.DataObject" name="vacation" componentType="com.primeton.vacation.vacation#TVacation" />
+	</method>
+	<method name="deleteVacations">
+		<parameter index="0" type="commonj.sdo.DataObject[]" name="vacations" componentType="com.primeton.vacation.vacation#TVacation" />
+	</method>
+	<method name="getVacationByInstId">
+		<parameter index="0" name="processInst" />
+		<parameter index="-1" type="commonj.sdo.DataObject" name="vacation" componentType="com.primeton.vacation.vacation#TVacation" />
+	</method>
+	<method name="queryVacation">
+		<parameter index="0" type="commonj.sdo.DataObject" name="criteria" componentType="com.primeton.das.criteria#criteriaType" />
+		<parameter index="1" type="commonj.sdo.DataObject" name="page" componentType="com.eos.foundation#PageCond" />
+		<parameter index="2" name="sortField" />
+		<parameter index="3" name="sortOrder" />
+		<parameter index="-1" type="commonj.sdo.DataObject[]" name="vacations" componentType="com.primeton.vacation.vacation#TVacation" />
+		<parameter index="-2" name="total" />
+	</method>
+	<method name="saveVacation">
+		<parameter index="0" type="commonj.sdo.DataObject" name="vacation" componentType="com.primeton.vacation.vacation#TVacation" />
+	</method>
+	<method name="updateVacation">
+		<parameter index="0" type="commonj.sdo.DataObject" name="vacation" componentType="com.primeton.vacation.vacation#TVacation" />
+		<parameter index="1" name="workitemid" />
+		<parameter index="2" name="processInstId" />
+	</method>
+	<method name="updateVactionDemo">
+		<parameter index="0" type="commonj.sdo.DataObject" name="vacation" componentType="com.primeton.vacation.vacation#TVacation" />
+	</method>
+</mapping>

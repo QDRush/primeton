@@ -1,0 +1,14 @@
+<map>
+  <entry>
+    <string>com.primeton.vacation.SimplestDemo.startProcessInst()</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;startProcessInst&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;startProcessInst&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.SimplestDemo.startProcessInst&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>com.primeton.vacation.SimplestDemo.receiveProcessInstData(Int)</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;receiveProcessInstData&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;receiveProcessInstData&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.SimplestDemo.receiveProcessInstData&lt;dl&gt;&lt;dt&gt;Parameters:&lt;/dt&gt;&lt;dd&gt;&lt;b&gt;workitemid(Int):&lt;/b&gt;&lt;/dd&gt;&lt;/html&gt;</string>
+  </entry>
+  <entry>
+    <string>SimplestDemo</string>
+    <string>&lt;html&gt;&lt;b&gt;Name:&lt;/b&gt;SimplestDemo.componentType&lt;br&gt;&lt;b&gt;Display Name:&lt;/b&gt;SimplestDemo&lt;br&gt;&lt;b&gt;Namespace:&lt;/b&gt;com.primeton.vacation.SimplestDemo&lt;/html&gt;</string>
+  </entry>
+</map>

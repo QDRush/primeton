@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xs:schema xmlns="com.primeton.vacation.vacation" xmlns:sdo="commonj.sdo" xmlns:sdoJava="commonj.sdo/java" xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="com.primeton.vacation.vacation">
+    <xs:complexType name="TVacationArchive">
+        <xs:sequence>
+            <xs:any minOccurs="0"/>
+            <xs:element minOccurs="0" name="id" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="applicant" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="starttime" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="endtime" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="state" nillable="true" type="xs:int"/>
+            <xs:element minOccurs="0" name="type" nillable="true" type="xs:int"/>
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="createtime" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="processinstid" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="workitemid" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="approver" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="approvalComments" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="approvalStatus" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="approvalTime" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="TVacation">
+        <xs:sequence>
+            <xs:any minOccurs="0"/>
+            <xs:element minOccurs="0" name="id" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="applicant" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="starttime" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="endtime" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="state" nillable="true" type="xs:int"/>
+            <xs:element minOccurs="0" name="type" nillable="true" type="xs:int"/>
+            <xs:element minOccurs="0" name="remark" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="createtime" nillable="true" type="xs:dateTime"/>
+            <xs:element minOccurs="0" name="processinstid" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="workitemid" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="QueryEmpVacationTimes">
+        <xs:sequence>
+            <xs:any minOccurs="0"/>
+            <xs:element minOccurs="0" name="applicant" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="count" nillable="true" type="xs:long"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="VacationTree">
+        <xs:sequence>
+            <xs:any minOccurs="0"/>
+            <xs:element minOccurs="0" name="pid" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="id" nillable="true" type="xs:string"/>
+            <xs:element minOccurs="0" name="text" nillable="true" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

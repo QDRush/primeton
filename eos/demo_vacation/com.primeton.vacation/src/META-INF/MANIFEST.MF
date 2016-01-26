@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Require-Bundle: org.gocom.components.coframe.entityauth,com.primeton.e
+ os.richweb,com.eos.foundation,com.eos.workflow
+Bundle-Vendor: Administrator
+eos-webCtxPath: vacation
+Bundle-Version: 1.0.0
+Bundle-Name: com.primeton.vacation
+Bundle-Description: 
+Bundle-SymbolicName: com.primeton.vacation
+

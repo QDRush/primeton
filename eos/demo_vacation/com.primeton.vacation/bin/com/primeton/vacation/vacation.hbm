@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC  "-//Hibernate/Hibernate Mapping DTD 3.0//EN" 
+ "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class dynamic-insert="true" dynamic-update="true" entity-name="com.primeton.vacation.vacation.TVacationArchive" table="t_vacation_archive">
+        <tuplizer class="com.primeton.server.das.tuplizer.SDOEntityTuplizer" entity-mode="sdo"/>
+        <id name="id" type="string">
+            <column length="50" name="id"/>
+            <generator class="uuid"/>
+        </id>
+        <property name="applicant" type="string">
+            <column length="20" name="applicant"/>
+        </property>
+        <property name="starttime" type="timestamp">
+            <column name="starttime"/>
+        </property>
+        <property name="endtime" type="timestamp">
+            <column name="endtime"/>
+        </property>
+        <property name="state" type="int">
+            <column name="state"/>
+        </property>
+        <property name="type" type="int">
+            <column name="type"/>
+        </property>
+        <property name="remark" type="string">
+            <column length="200" name="remark"/>
+        </property>
+        <property name="createtime" type="timestamp">
+            <column name="createtime"/>
+        </property>
+        <property name="processinstid" type="string">
+            <column length="10" name="processinstid"/>
+        </property>
+        <property name="workitemid" type="string">
+            <column length="10" name="workitemid"/>
+        </property>
+        <property name="approver" type="string">
+            <column length="20" name="approver"/>
+        </property>
+        <property name="approvalComments" type="string">
+            <column length="200" name="approval_comments"/>
+        </property>
+        <property name="approvalStatus" type="string">
+            <column length="200" name="approval_status"/>
+        </property>
+        <property name="approvalTime" type="string">
+            <column length="200" name="approval_time"/>
+        </property>
+    </class>
+    <class dynamic-insert="true" dynamic-update="true" entity-name="com.primeton.vacation.vacation.TVacation" table="t_vacation">
+        <tuplizer class="com.primeton.server.das.tuplizer.SDOEntityTuplizer" entity-mode="sdo"/>
+        <id name="id" type="string">
+            <column length="50" name="id"/>
+            <generator class="uuid"/>
+        </id>
+        <property name="applicant" type="string">
+            <column length="20" name="applicant"/>
+        </property>
+        <property name="starttime" type="timestamp">
+            <column name="starttime"/>
+        </property>
+        <property name="endtime" type="timestamp">
+            <column name="endtime"/>
+        </property>
+        <property name="state" type="int">
+            <column name="state"/>
+        </property>
+        <property name="type" type="int">
+            <column name="type"/>
+        </property>
+        <property name="remark" type="string">
+            <column length="200" name="remark"/>
+        </property>
+        <property name="createtime" type="timestamp">
+            <column name="createtime"/>
+        </property>
+        <property name="processinstid" type="string">
+            <column length="10" name="processinstid"/>
+        </property>
+        <property name="workitemid" type="string">
+            <column length="10" name="workitemid"/>
+        </property>
+    </class>
+    <class entity-name="com.primeton.vacation.vacation.QueryEmpVacationTimes" table="$QueryEntity[com.primeton.vacation.vacation.QueryEmpVacationTimes]$">
+        <tuplizer class="com.primeton.server.das.tuplizer.SDOEntityTuplizer" entity-mode="sdo"/>
+        <id column="$queryEntityId$" name="queryEntityId" type="string">
+            <generator class="assigned"/>
+        </id>
+        <property column="applicant" insert="false" name="applicant" type="string" update="false"/>
+        <property column="count" insert="false" name="count" type="long" update="false"/>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<QueryEntityList>
+    <QueryEntity name="com.primeton.vacation.vacation.QueryEmpVacationTimes">
+        <config db="default" type="sql"><![CDATA[SELECT DISTINCT
+	t.applicant,
+	count(*) as count
+FROM t_vacation t
+where
+	t.applicant like '张三'
+group by t.applicant]]></config>
+    </QueryEntity>
+</QueryEntityList>
